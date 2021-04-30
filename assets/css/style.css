@@ -1,0 +1,693 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+} 
+
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #ffff;
+    border: 0; 
+    font-size: bold;
+    color: #007bff;
+}  
+
+.navbar a {
+     text-decoration: none;
+}
+
+.navbar-logo {
+    position: relative;
+    margin-left: 25px;
+  
+}
+
+
+<!-- envirocabs logo made in Wix.com-->
+
+.Envirocabs-logo { background: url("../images/envirocabs-logo.jpg");    
+    
+}  
+
+.hero-image  {
+    height: 125vh;
+
+    background: url('../images/Hero\ image\ page\ 1.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+} 
+
+
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}           
+
+/* Hero image for services page from unsplash */
+     
+   .hero-image-2 {
+
+    height: 105vh;
+
+    background: url('../images/hero-image-services.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative; 
+   } 
+
+/* Hero image for services page from unsplash */ 
+
+/* Hero image for driver page from unsplash */ 
+
+.hero-image-3 {
+
+    height: 105vh;
+
+    background: url('../images/hero-image-drivers.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative; 
+   } 
+
+
+
+/* Hero image for driver page from unsplash */ 
+
+/* Hero image for safety page from pexels */ 
+
+.hero-image-4 {
+
+    height: 105vh;
+
+    background: url('../images/hero-image-safety.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative; 
+   }  
+
+   /* Hero image for safety page from pexels */ 
+
+/* Hero image for our commitment page from unsplash */ 
+
+.hero-image-5 {
+
+    height: 105vh;
+
+    background: url('../images/our-commitment-hero-image.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative; 
+   }  
+
+   /* Hero image for oue commitment page from pexels.com */ 
+
+  .hero-image-6 {
+
+    height: 105vh;
+
+    background: url('../images/contact-us-hero-image\ \(2\).jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative; 
+   }  
+
+   /* Hero image for oue commitment page from pexels.com */ 
+
+   
+   
+   
+   /* Hero image button from Bootstrap */
+
+.btn {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 200px; 
+    position: relative;
+    left: -500px;  
+    top: -200px; 
+    color: #ffffff;
+    background-color:#007bff;
+}
+
+
+/* Hero image button from Bootstrap */
+
+
+
+/* information page with icons */
+
+.icons {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 40px;
+    color: #007bff; 
+}
+
+.icons i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+/* information page with icons */   
+
+/* testimonial container */  
+
+.container {
+    text-align: left;
+    margin-bottom: 10px;
+    background-color: #007bff; 
+
+    font-size: 45px;
+    line-height: 45px;
+    border-color: white;
+    border-radius: 15px;
+    width: 1200px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ffffff;
+    
+}  
+
+
+.text-uppercase {
+
+    font-weight: bold;
+    color: #007bff; 
+    margin-bottom: 30px;
+}
+
+.blockquote {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 30px;
+   margin-top: 15px;
+    
+}
+
+/* testimonial container */ 
+/* image next to testimonial container */ 
+
+.home-page-image {
+
+  height: 150vh;
+    width: 160vh;
+
+    background: url('../images/home-page-image.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative; 
+
+}
+
+
+
+
+
+
+/* services container */ 
+.container-services {
+
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 30px;
+    max-width: fit-content;
+  
+
+}
+
+.services-header {
+    
+    
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 40px;
+    padding-top: 2%;
+   
+}  
+
+
+/* services container */ 
+
+
+
+
+/* services grid from W3schools*/ 
+
+.column {
+  float: left;
+  width: 50%;
+  padding:50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+.services-image-1 {
+  
+    height: 50vh;
+    width: 90vh;
+    max-width: 100%;
+  
+
+    background: url('../images/services-image-1.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative; 
+
+}  
+
+.services-image-2 {
+  
+    height: 50vh;
+    width: 90vh; 
+    max-width: 100%;
+
+    background: url('../images/services-images-2.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative; 
+
+}  
+
+.services-image-3 {
+  
+    height: 50vh;
+    width: 90vh;
+    max-width: 100%;
+
+    background: url('../images/services-images-3.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative; 
+
+}  
+
+.services-image-4 {
+  
+    height: 60vh;
+    width: 90vh;
+    max-width: 100%;
+
+    background: url('../images/services-images-4.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative; 
+
+}  
+
+
+/* services grid*/ 
+
+/* drivers page grid*/
+
+.drivers-image-1 {
+  
+    height: 50vh;
+    width: 90vh;  
+    max-width: 100%;
+
+    background: url('../images/drivers-image-1.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative; 
+
+}  
+
+.driver-text {
+    
+    font-size: 115%; 
+    color: #007bff;
+    
+
+}
+
+
+
+/* drivers page grid*/
+
+
+
+/* safety page grid*/ 
+
+.safety-image-1 {
+  
+    height: 50vh;
+    width: 90vh;
+    max-width: 100%;
+
+    background: url('../images/safety-image-1.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative; 
+
+    
+
+}  
+
+.safety-text {
+    font-weight: bold;
+    font-size: 115%; 
+
+}
+
+/* safety page grid*/ 
+
+/* Our-commitment container*/ 
+
+
+
+
+.commitment-header {
+ 
+    font-weight: bold;
+    color: #1ff354; 
+    font-size: 115%; 
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+   
+    
+}  
+
+
+
+
+
+/* Our-commitment container*/ 
+
+/* Our-commitment grid table*/ 
+
+.our-commitments-image-1 {
+  
+    height: 70vh;
+    width: 90vh; 
+    max-width: 100%;
+
+    background: url('../images/our-commitment-image-1.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative; 
+
+}  
+
+.our-commitments-image-2 {
+  
+    height: 70vh;
+    width: 90vh; 
+    max-width: 100%;
+
+    background: url('../images/our-commitment-image-2.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative; 
+
+}  
+
+.text-type   {
+
+    
+    color: #87f3a2; 
+    font-size: 115%;
+  
+}
+
+/* Our-commitment grid table*/ 
+
+/* contact us booking form*/ 
+
+.contact-form {
+    width: 150%; 
+    
+}
+
+.book-button {
+  
+ 
+    width: 30%; 
+    position: relative;
+    top: 25px;
+    left: 15px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;  
+ 
+    
+}
+
+.contact {
+    padding-top: 15px;
+}
+
+.make-booking {
+  
+    padding-bottom: 20px;
+    color: #007bff; 
+    
+}
+/* contact us booking form*/ 
+
+/* contact us booking address*/ 
+
+.booking-header {
+    margin-top: 11%;
+    color: #007bff; 
+    padding-bottom: 30px;
+
+}
+
+.booking-paragraph-header {
+    font-size: 18px;
+    color: #007bff;
+}
+
+.booking-paragraph {
+
+    font-size: 18px;
+}  
+
+
+
+/* contact us booking address*/ 
+
+/* footer */ 
+
+
+
+.footer {
+    background-color: #ffff;
+    height: 150px
+}
+
+.social-links {
+    text-align: right;
+}
+
+.social-links li {
+    display: inline;
+    
+} 
+
+.social-links i {
+    font-size: 180%; 
+    margin: 1%;
+    padding: 2%;
+    color: #007bff;
+}  
+
+.social-links a {
+    text-decoration: none;
+}
+
+.follow-us {  
+   font-size: 120%;  
+   font-weight: bold;
+   padding-right: 100px;
+   color: #007bff;
+
+}
+
+
+.social footer {
+    line-height: 150px;
+
+}
+
+.social li {
+    display: inline;
+    padding-left: 300px;
+    font-size: 200%; 
+    color: #007bff;
+    
+}  
+
+.or {
+    color: #007bff;
+    display: inline;
+    padding-left: 50px;
+    padding-bottom: 100px;
+    font-weight: bold;
+} 
+
+
+.block-divider {
+    background:#007bff; 
+    width: 2000px;
+}
+
+
+
+.download-header {
+    font-size: 18px; 
+    font-weight: bold;
+    margin: -6%;
+    padding-left: 50%;
+    padding-top: -0%; 
+    padding-bottom: 6%;
+    color: #007bff;
+   
+}  
+
+/* button from W3schools */ 
+
+
+.button {
+  border: none;
+  color: #ffffff;
+  background-color: #007bff;
+  padding: 10px 25px;
+  text-align: right;
+  display: inline-block;
+  font-size: 16px;
+  bottom: -5px;
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+  
+} 
+
+
+
+/* button from W3schools */ 
+
+/* footer */ 
